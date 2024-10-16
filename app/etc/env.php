@@ -11,7 +11,7 @@ return [
             'default' => [
                 'backend' => 'Cm_Cache_Backend_Redis',
                 'backend_options' => [
-                    'server' => '127.0.0.1',
+                    'server' => '172.26.1.106',
                     'port' => '6379',
                     'database' => '0',
                     'compress_data' => '1',
@@ -62,7 +62,7 @@ return [
     'session' => [
         'save' => 'redis',
         'redis' => [
-            'host' => '127.0.0.1',
+            'host' => '172.26.1.106',
             'port' => '6379',
             'password' => '',
             'timeout' => '15',
