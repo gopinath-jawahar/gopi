@@ -40,7 +40,7 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => '127.0.0.1',
+                'host' => '172.26.1.111',
                 'dbname' => 'gopinath-test',
                 'username' => 'gopinath-test',
                 'password' => 'B6GCu7lQeQ2qUgII',
