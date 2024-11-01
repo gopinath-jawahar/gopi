@@ -9,7 +9,7 @@ return [
     'session' => [
     'save' => 'redis',
     'redis' => [
-        'host' => '127.0.0.1',
+        'host' => '172.26.1.70',
         'port' => '6379',
         'password' => '',
         'timeout' => '15',
@@ -34,7 +34,7 @@ return [
             'default' => [
                 'backend' => 'Cm_Cache_Backend_Redis',
                 'backend_options' => [
-                    'server' => '127.0.0.1',
+                    'server' => '172.26.1.70',
                     'port' => '6379',
                     'database' => '5',
                     'compress_data' => '1',
@@ -63,7 +63,7 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => '127.0.0.1',
+                'host' => '172.26.1.70',
                 'dbname' => 'gopinath-test',
                 'username' => 'gopinath-test',
                 'password' => 'AdTCZj0d7coTFzyL',
