@@ -66,7 +66,7 @@ return [
                 'host' => '172.26.1.70',
                 'dbname' => 'gopinath-test',
                 'username' => 'gopinath-test',
-                'password' => 'AdTCZj0d7coTFzyL',
+                'password' => 'M8eKLBYlgESvzCf2',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
